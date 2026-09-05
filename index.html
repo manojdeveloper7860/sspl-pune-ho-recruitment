@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sahyadri Sthapatya Private Limited recruitment portal for Senior HR - Infrastructure Projects, Pune Head Office, Baner.">
+  <title>SSPL Careers | Pune Head Office</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <section class="hero" id="welcomeScreen">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <div class="brand-row">
+          <div class="logo">SSPL</div>
+          <div>
+            <h3>Sahyadri Sthapatya Private Limited</h3>
+            <p>Careers | Infrastructure Projects</p>
+          </div>
+        </div>
+
+        <div class="urgent-badge"><span></span> URGENT REQUIREMENT - PUNE HEAD OFFICE</div>
+
+        <h1>Senior HR for <em>Infrastructure Projects</em></h1>
+
+        <p class="lead">
+          We are hiring an experienced HR professional for our Pune Head Office at Baner.
+          Direct Construction / Infrastructure Project HR experience is mandatory.
+        </p>
+
+        <div class="must-have">
+          <strong>Mandatory Head Office Requirement</strong>
+          <p>
+            Candidate must be willing to work from <b>Pune Head Office, Baner, Pune</b>.
+            This is not a remote or project-site-only vacancy.
+          </p>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><small>Location</small><strong>Baner, Pune</strong></div>
+          <div class="stat"><small>Total Experience</small><strong>15-20 Years</strong></div>
+          <div class="stat"><small>Industry</small><strong>Infrastructure / Construction</strong></div>
+          <div class="stat"><small>Joining</small><strong>Immediate Preferred</strong></div>
+        </div>
+
+        <button class="primary-light" type="button" id="openApplicationBtn">Apply for This Position →</button>
+      </div>
+
+      <aside class="job-card">
+        <div class="job-card-head">
+          <div class="job-icon">🏢</div>
+          <span class="hiring">● Hiring Now</span>
+        </div>
+
+        <h2>Senior HR - Infrastructure Projects (Head Office)</h2>
+        <p class="muted">
+          Head Office HR role requiring strong construction-project exposure, manpower management,
+          statutory compliance, industrial relations and site-HR understanding.
+        </p>
+
+        <h4>Core Requirements</h4>
+        <ul class="check-list">
+          <li>✓ Pune Head Office - Baner, Pune</li>
+          <li>✓ 15-20 years total HR experience</li>
+          <li>✓ Construction / Infrastructure Project HR experience</li>
+          <li>✓ Manpower Mobilization & Recruitment</li>
+          <li>✓ Labour & Statutory Compliance</li>
+          <li>✓ Industrial / Employee Relations</li>
+          <li>✓ Contractor & Site Manpower Management</li>
+        </ul>
+
+        <div class="warning-box">
+          Applications without relevant Construction / Infrastructure Project HR experience or willingness
+          to work from Baner Head Office will not meet the mandatory eligibility criteria.
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <div class="app-shell hidden" id="applicationScreen">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="mini-brand">
+          <div class="mini-logo">SSPL</div>
+          <div>
+            <strong>Sahyadri Sthapatya Private Limited</strong>
+            <span>Infrastructure Recruitment Portal</span>
+          </div>
+        </div>
+        <div class="secure-badge">🔒 Secure Application</div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="dashboard">
+        <div>
+          <small>Urgent Requirement</small>
+          <h2>Senior HR - Infrastructure Projects (Head Office)</h2>
+          <p>Baner, Pune | 15-20 Years | Construction / Infrastructure Project HR Experience Mandatory | Immediate Joiner Preferred</p>
+        </div>
+        <div class="counter">
+          <strong id="applicantCount">-</strong>
+          <span>Applications Received</span>
+        </div>
+      </section>
+
+      <section class="form-card" id="formCard">
+        <div class="form-header">
+          <h2>Candidate Application</h2>
+          <p>Please provide accurate information. Fields marked with * are mandatory.</p>
+          <div class="eligibility-alert">
+            <b>IMPORTANT:</b> This vacancy is for the <b>Pune Head Office at Baner, Pune</b> and requires
+            direct Construction / Infrastructure Project HR experience.
+          </div>
+        </div>
+
+        <form id="applicationForm" novalidate>
+          <div class="honeypot" aria-hidden="true">
+            <label>Website <input type="text" name="website" autocomplete="off" tabindex="-1"></label>
+          </div>
+
+          <section class="form-section">
+            <div class="section-title">
+              <h3>Position Details</h3>
+              <p>Current vacancy information</p>
+            </div>
+            <div class="form-grid">
+              <div class="field">
+                <label>Vacancy / Position</label>
+                <input name="position" value="Senior HR - Infrastructure Projects (Head Office)" readonly>
+              </div>
+              <div class="field">
+                <label>Work Location / Office</label>
+                <input name="preferredLocation" value="Pune Head Office - Baner, Pune" readonly>
+              </div>
+              <div class="field full ho-confirm">
+                <label>Are you willing to work from Pune Head Office, Baner, Pune? <span>*</span></label>
+                <select name="hoLocationAcceptance" required>
+                  <option value="">Select</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+                <small>This confirmation is mandatory for this vacancy.</small>
+              </div>
+            </div>
+          </section>
+
+          <section class="form-section">
+            <div class="section-title">
+              <h3>Personal Details</h3>
+              <p>Candidate contact information</p>
+            </div>
+            <div class="form-grid">
+              <div class="field">
+                <label>Full Name <span>*</span></label>
+                <input type="text" name="fullName" maxlength="100" placeholder="Enter full name" required>
+              </div>
+              <div class="field">
+                <label>Mobile Number <span>*</span></label>
+                <input type="tel" name="mobile" maxlength="20" placeholder="+91 98765 43210" required>
+              </div>
+              <div class="field">
+                <label>Email Address <span>*</span></label>
+                <input type="email" name="email" maxlength="150" placeholder="candidate@example.com" required>
+              </div>
+              <div class="field">
+                <label>Date of Birth <span>*</span></label>
+                <input type="date" name="dob" id="dob" required>
+              </div>
+              <div class="field">
+                <label>Current City <span>*</span></label>
+                <input type="text" name="currentCity" maxlength="100" required>
+              </div>
+              <div class="field">
+                <label>Highest Qualification <span>*</span></label>
+                <input type="text" name="qualification" maxlength="150" placeholder="Example: MBA HR" required>
+              </div>
+            </div>
+          </section>
+
+          <section class="form-section">
+            <div class="section-title">
+              <h3>Professional Experience</h3>
+              <p>Employment and total HR experience</p>
+            </div>
+            <div class="form-grid">
+              <div class="field">
+                <label>Total Experience <span>*</span></label>
+                <input type="number" name="totalExperience" min="15" max="20" step="0.1" placeholder="Years" required>
+                <small>Required total experience: 15-20 years.</small>
+              </div>
+              <div class="field">
+                <label>Current Company <span>*</span></label>
+                <input type="text" name="currentCompany" maxlength="150" required>
+              </div>
+              <div class="field">
+                <label>Current Designation <span>*</span></label>
+                <input type="text" name="currentDesignation" maxlength="150" required>
+              </div>
+              <div class="field">
+                <label>Notice Period <span>*</span></label>
+                <select name="noticePeriod" required>
+                  <option value="">Select Notice Period</option>
+                  <option value="Immediate">Immediate Joiner</option>
+                  <option value="Within 7 Days">Within 7 Days</option>
+                  <option value="15 Days">15 Days</option>
+                  <option value="30 Days">30 Days</option>
+                  <option value="45 Days">45 Days</option>
+                  <option value="60 Days">60 Days</option>
+                  <option value="90 Days">90 Days</option>
+                  <option value="More than 90 Days">More than 90 Days</option>
+                </select>
+                <small>Immediate joiners preferred.</small>
+              </div>
+            </div>
+          </section>
+
+          <section class="form-section">
+            <div class="section-title">
+              <h3>Construction / Infrastructure Project HR Experience</h3>
+              <p>Mandatory eligibility section</p>
+            </div>
+            <div class="form-grid">
+              <div class="field">
+                <label>Do you have direct HR experience in Construction / Infrastructure Projects? <span>*</span></label>
+                <select name="constructionExperience" required>
+                  <option value="">Select</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+              <div class="field">
+                <label>Construction / Infrastructure Project HR Experience (Years) <span>*</span></label>
+                <input type="number" name="constructionExperienceYears" min="0.1" max="20" step="0.1" placeholder="Experience in years" required>
+              </div>
+
+              <div class="field full">
+                <label>Infrastructure Project Types Handled <span>*</span></label>
+                <div class="checkbox-grid">
+                  <label class="checkbox-item"><input type="checkbox" name="projectType" value="Road / Highway Project"> Road / Highway Project</label>
+                  <label class="checkbox-item"><input type="checkbox" name="projectType" value="Building / Construction Project"> Building / Construction Project</label>
+                  <label class="checkbox-item"><input type="checkbox" name="projectType" value="Dam / Water Infrastructure Project"> Dam / Water Infrastructure Project</label>
+                  <label class="checkbox-item"><input type="checkbox" name="projectType" value="Railway Infrastructure Project"> Railway Infrastructure Project</label>
+                  <label class="checkbox-item"><input type="checkbox" name="projectType" value="Bridge / Flyover Project"> Bridge / Flyover Project</label>
+                  <label class="checkbox-item"><input type="checkbox" name="projectType" value="Other Infrastructure Project"> Other Infrastructure Project</label>
+                </div>
+              </div>
+
+              <div class="field full">
+                <label>Key Skills <span>*</span></label>
+                <textarea name="keySkills" maxlength="1800" placeholder="Example: Project HR, Site HR, manpower mobilization, recruitment, labour compliance, industrial relations, contractor manpower management, payroll, statutory compliance, employee relations..." required></textarea>
+              </div>
+            </div>
+          </section>
+
+          <section class="form-section">
+            <div class="section-title">
+              <h3>Compensation & Mobility</h3>
+              <p>Current and expected employment details</p>
+            </div>
+            <div class="form-grid">
+              <div class="field">
+                <label>Current Salary CTC <span>*</span></label>
+                <input type="text" name="currentSalary" maxlength="50" placeholder="Example: 18 LPA" required>
+              </div>
+              <div class="field">
+                <label>Expected Salary CTC <span>*</span></label>
+                <input type="text" name="expectedSalary" maxlength="50" placeholder="Example: 24 LPA" required>
+              </div>
+              <div class="field full">
+                <label>Are you willing to relocate? <span>*</span></label>
+                <select name="relocation" required>
+                  <option value="">Select</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                  <option value="Depends on Location">Depends on Location</option>
+                </select>
+              </div>
+            </div>
+          </section>
+
+          <section class="form-section">
+            <div class="section-title">
+              <h3>Resume & Documents</h3>
+              <p>Upload latest documents</p>
+            </div>
+            <div class="form-grid">
+              <div class="field">
+                <label>Upload Resume <span>*</span></label>
+                <div class="upload-box">
+                  <input type="file" id="resume" accept=".pdf,.doc,.docx" required>
+                  <small>PDF / DOC / DOCX. Maximum 5 MB.</small>
+                </div>
+              </div>
+              <div class="field">
+                <label>Upload Certificates</label>
+                <div class="upload-box">
+                  <input type="file" id="certificates" accept=".pdf,.jpg,.jpeg,.png" multiple>
+                  <small>Maximum 5 files, 5 MB each.</small>
+                </div>
+              </div>
+              <div class="field full">
+                <label>Reference</label>
+                <input type="text" name="reference" maxlength="250" placeholder="If referred, mention Employee Name and Employee ID">
+              </div>
+              <div class="field full">
+                <label>Any Remarks</label>
+                <textarea name="remarks" maxlength="1800" placeholder="Mention important project details, major sites handled, manpower strength, achievements, etc."></textarea>
+              </div>
+            </div>
+
+            <div class="privacy-note">
+              🔒 Candidate information and uploaded documents are sent to the recruitment backend and stored in the company's Google Sheet and Google Drive. The Google Sheet URL is not exposed on this website.
+            </div>
+          </section>
+
+          <div class="form-actions">
+            <button class="submit-btn" id="submitBtn" type="submit">Submit Application</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="success-card hidden" id="successCard">
+        <div class="success-icon">✓</div>
+        <h2>Application Submitted</h2>
+        <p>
+          Thank you for applying to Sahyadri Sthapatya Private Limited. Your application for the Pune Head Office HR position has been received.
+        </p>
+        <div class="reference-box">
+          <small>Application Reference</small>
+          <strong id="applicationId">-</strong>
+        </div>
+        <button class="submit-btn" type="button" id="submitAnotherBtn">Submit Another Application</button>
+      </section>
+    </main>
+  </div>
+
+  <iframe id="submitFrame" name="submitFrame" class="hidden-frame" title="Submission response"></iframe>
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

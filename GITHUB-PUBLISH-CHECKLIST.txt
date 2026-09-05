@@ -1,0 +1,17 @@
+SSPL RECRUITMENT PORTAL - PUBLISH CHECKLIST
+
+1. Open your target Google Sheet.
+2. Extensions -> Apps Script.
+3. Paste apps-script/Code.gs.
+4. Run setup() one time and approve permissions.
+5. Deploy -> New deployment -> Web app.
+6. Execute as: Me.
+7. Who has access: Anyone.
+8. Copy the /exec URL.
+9. Open config.js and paste ONLY the /exec URL into WEB_APP_URL.
+10. Do NOT paste your Google Sheet URL or Spreadsheet ID into GitHub files.
+11. Upload project files to a GitHub repository.
+12. Settings -> Pages -> Deploy from main branch / root.
+13. Test one application.
+14. Confirm the new row appears in the Applications sheet.
+15. Confirm resume/certificates open from the Drive links saved in the Sheet.
