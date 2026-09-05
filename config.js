@@ -5,7 +5,7 @@
   Do NOT put your Google Sheet URL or Spreadsheet ID in this file.
 */
 window.APP_CONFIG = {
-  WEB_APP_URL: 'https://script.google.com/macros/s/AKfycbyxg3LmPgPMaFfHX3eLtZC2q6LVxZ0l9Ip8TYCWFiRL0OKTr8tuYSo4RVfrf4n4wd3B/exec',
+  WEB_APP_URL: 'https://script.google.com/macros/s/AKfycbyDKdddMGOIpbdXX_DLEsKvxdREQYEzKfcQe9pUdrflGFbM29MsrsbnogYgxc-_wRs/exec',
   COMPANY_NAME: 'Sahyadri Sthapatya Private Limited',
   POSITION: 'Senior HR - Infrastructure Projects (Head Office)',
   LOCATION: 'Pune Head Office - Baner, Pune',
